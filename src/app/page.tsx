@@ -9,15 +9,7 @@ import imgPortofolio from "@/Data/collection";
 
 export default function Home() {
   const [section, setSection] = useState<"home" | "about" | "portofolio" | "contact">("home");
-  const [index, setIndex] = useState(0);
-  const next = () => setIndex((prev) => (prev + 1) % imgPortofolio.length);
-  const prev = () => setIndex((prev) => (prev - 1 + imgPortofolio.length) % imgPortofolio.length);
-  useEffect(() => {
-    const interval = setInterval(() => {
-      next();
-    }, 3000);
-    return () => clearInterval(interval);
-  }, [imgPortofolio.length]);
+ 
   return (
     <>
       <header id="header" className="header d-flex align-items-center light-background sticky-top">

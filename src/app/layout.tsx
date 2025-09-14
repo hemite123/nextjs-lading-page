@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Portofolio",
+  title: "Stevane Tanzil",
   description: "Fashion Designer Portofolio",
 };
 
@@ -27,7 +27,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="stylesheet" href="/css/loader.css" />
+        <link rel="stylesheet" href="/css/loader.css"></link>
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased index-page`} 

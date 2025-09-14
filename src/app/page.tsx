@@ -116,7 +116,7 @@ export default function Home() {
 
               <div className="container section-title" data-aos="fade-up">
                 <h2>Portfolio Details</h2>
-                <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+                <p>This My Portofolio</p>
               </div>
 
               <div className="container" data-aos="fade-up" data-aos-delay="100">
